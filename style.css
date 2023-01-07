@@ -10,7 +10,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: initial;
-    width: 1124px;
+    width: 1123px;
     height: 250px;
     background-size: cover;
     display: flex;
@@ -41,3 +41,43 @@
     padding:20px 25px;
 
 }
+
+/* information section */
+.information-section{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    padding-top: 60px;
+    gap: 106px;
+}
+.information-img img{
+    width: 475px;
+    
+}
+
+.information-text {
+    margin-top: 235px;
+}
+
+h3.information-tittle {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.information-desc{
+    font-weight: 400;
+    /* line-height: 26px; */
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+.information-line {
+    list-style: none;
+    color: #444343;
+}
+.information-line i{
+    color: green;
+    margin-right: 5px;    
+}
+
+
